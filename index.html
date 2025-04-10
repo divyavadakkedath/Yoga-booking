@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-300">
+    <nav class="bg-green-800 py-5 flex justify-between">
+        <span class="text-green-100 text-2xl font-bold">Yoga Center</span>
+        <Ul class="flex justify-between space-x-4 font-bold">
+            <Li class="border border-white rounde px-4 py-2 hover:bg-green-100"><a href="">Home</a></Li>
+            <Li class="border border-white rounde px-4 py-2 hover:bg-green-100"><a href="">class</a></Li>
+            <Li class="border border-white rounde px-4 py-2 hover:bg-green-100"><a href="">Booking</a></Li>
+            <Li class="border border-white rounde px-4 py-2 hover:bg-green-100"><a href="">Contact</a></Li>
+        </Ul>
+    </nav>
+    <section class="bg-[url(https://cdn.wallpapersafari.com/5/22/PQZY8r.jpeg)] h-screen bg-center flex justify-center items-center">
+    <div class="bg-green-400 b-green-500/10 border border-green-800 rounded p-8">
+        <h1 class="text-4xl font-bold text-ceter text-green-800">Find Your Inner Peace</h1>
+        <p class="m-3 text-center text-yellow">Book A Meditation Or Yoga Session Today</p>
+        <div class="text-center">
+            <button class="rounded-full bg-green-500 px-4 py-3 m-4 hover:bg-green-800 text-green-900" >Book now</button>
+        </div>
+        
+    </div></section>
+    <h1 class="text-center text-4xl my-4 pb-6">About</h1>
+    <section class="flex ">
+       
+        <div class="w-1/2 bg-green-400">
+            <h1 class="text-center text-4xl my-4 " >Yoga</h1>
+            <p class="text-justify p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores ipsam rem dolorem cum, totam dolor reiciendis hic sapiente accusamus voluptates asperiores, ipsa ea ad deleniti fuga amet quisquam laudantium?
+            Debitis culpa incidunt, excepturi soluta, dolores provident fuga adipisci obcaecati deserunt, minima ratione libero nulla eligendi. Eum iusto provident quidem eveniet fugiat, omnis accusamus ratione numquam officia quas veniam nostrum?
+            Explicabo nesciunt tempore deserunt reiciendis, voluptatibus sunt consequuntur amet assumenda asperiores perferendis facilis, enim eveniet dolorum modi, unde quo provident eaque rerum accusantium reprehenderit quibusdam id recusandae suscipit minus? Corrupti!</p>
+        </div>
+        <div class="w-1/2">
+            <img class="rounded-full p-8 ms-20"src="https://th.bing.com/th/id/OIP.np61NZBl594DoYHbK0qYQQHaEK?rs=1&pid=ImgDetMain" alt="">
+        </div>
+    </section>
+    <section class="pt-5">
+        <h1 class="  text-center text-4xl pt-5">Watch Demo Session</h1>
+        <div class=" mx-120 pb-10 pt-2 text-center"><iframe width="560" height="315" src="https://www.youtube.com/embed/hJbRpHZr_d0?si=n22tfv10frQjmuaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </section>
+    
+      <section class="text-center py-12">
+        <h2 class="text-3xl font-bold mb-8">Our Classes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Beginner Yoga</h3>
+            <p>Perfect for those starting their yoga journey.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Meditation Sessions</h3>
+            <p>Guided sessions to relax your mind.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Advanced Yoga</h3>
+            <p>For experienced practitioners looking to deepen their practice.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Mindfulness Training</h3>
+            <p>Learn techniques to enhance daily mindfulness.</p>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Book a Session Section -->
+      <section class="bg-green-50 py-12">
+        
+      <div class="max-w-md mx-auto bg-white shadow-md rounded-2xl p-8">
+        <h2 class="text-2xl font-bold text-center mb-6">Book a Session</h2>
+        <div>
+          <div class="mb-4">
+            <div class="text-sm font-medium mb-1">Name</div>
+            <input class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-green-400" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-4">
+            <div class="text-sm font-medium mb-1">Email</div>
+            <input class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-green-400" type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-6">
+            <div class="text-sm font-medium mb-1">Select Session</div>
+            <select class="w-full border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-green-400">
+              <option>Beginner Yoga</option>
+              <option>Advanced Yoga</option>
+              <option>Meditation Sessions</option>
+              <option>Mindfulness Training</option>
+            </select>
+          </div>
+          <button class="w-full bg-green-500 text-white rounded-lg py-2 hover:bg-green-600 transition" type="button">Book Now</button>
+        </div>
+      </div>
+    </section>
+      <!-- Contact Us Section -->
+      <section class="py-12 text-center bg-white">
+        <h2 class="text-2xl font-bold mb-2">Contact Us</h2>
+        <p>Email: <a href="mailto:contact@zenyoga.com" class="text-green-600">contact@zenyoga.com</a> | Phone: <a href="tel:+1234567890" class="text-green-600">+123 456 7890</a></p>
+      </section>
+    
+      <!-- Footer -->
+      <footer class="bg-gray-300 text-white text-center py-4">
+        <p>© 2025 Zen Yoga. All rights reserved.</p>
+      </footer>
+</body>
+</html>
